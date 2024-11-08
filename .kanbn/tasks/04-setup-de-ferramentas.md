@@ -1,11 +1,11 @@
 ---
 created: 2024-11-07T22:01:17.823Z
-updated: 2024-11-08T05:32:44.750Z
+updated: 2024-11-08T18:09:42.356Z
 assigned: 'Sérgio Pereira'
 progress: 0
 tags:
   - ref00004
-started: 2024-11-08T05:32:44.750Z
+started: 2024-11-08T00:00:00.000Z
 ---
 
 # 04 - Setup de Ferramentas
@@ -15,10 +15,10 @@ Setup de Ferramentas usadas para doc, log, monitoramento, proteção e teste
 ## Sub-tasks
 
 - [x] Preparar arquivos para que a documentação seja criada durante o desenvolvimento
-- [ ] Preparar arquivos de utilitários e configurações para serem atualizados durante o desenvoilvimento
-- [ ] Criar e executar o makefile
-- [ ] Instalar e configurar mkdocs
-- [ ] Instalar e configurar pytest
+- [x] Preparar arquivos de utilitários e configurações para serem atualizados durante o desenvoilvimento
+- [x] Criar e executar o makefile
+- [x] Instalar e configurar mkdocs
+- [x] Instalar e configurar pytest
 - [ ] merge da feat na dev e cria pasta ./src/infra/log
 - [ ] Criar os protótipos dos logs na pasta src/infra/log
 - [ ] Registrar falha dos testes com relatório
