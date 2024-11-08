@@ -1,6 +1,6 @@
 **README**
 
-**Geração moderna de Pré-proposta para projetos de Energia Solar.**
+**Geração de Pré-proposta para projetos de Energia Solar no formato PDF.**
 
 
 

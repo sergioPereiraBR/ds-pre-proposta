@@ -10,6 +10,7 @@ pip:
 	pip install -r requirements.txt
 
 git:
+    repo: https://github.com/sergioPereiraBR/ds-pre-proposta.git
     https://gist.github.com/leocomelli/2545add34e4fec21ec16
     https://www.atlassian.com/br/git/tutorials/setting-up-a-repository
     git -config --global user.email "seuemailaqui@example.com"
@@ -130,3 +131,30 @@ pkg:
     py -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-YOUR-USERNAME-HERE
     from example_package_YOUR_USERNAME_HERE import example
     https://packaging.python.org/en/latest/
+
+
+Loging
+    Erros e dados de forma padronizada
+
+Métricas
+    Comportamento em intervalos de tempo
+    Métricas
+    KPI
+    Performance
+    Alarmes
+    OKR
+
+Rastreamento
+    Tracing da causa raíz de erros, falhas e problemas
+
+Frafana
+Prometeus
+Jaguer
+Datadog
+New realic
+elast search
+
+Instrumentação
+Correlação de dados
+Respostas a incidentes
+AIOps

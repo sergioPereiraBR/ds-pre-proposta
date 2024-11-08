@@ -5,7 +5,7 @@ possível.
 
 ## Começando
 
-Ao desenvolver o Bowler, siga estas etapas para configurar seu ambiente,
+Ao desenvolver a Pré-proposta, siga estas etapas para configurar seu ambiente,
 formatar seu código e executar linters e testes de unidade:
 
 1. Fork [Pré-proposta][] no Github.
