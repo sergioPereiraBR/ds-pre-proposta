@@ -1,10 +1,11 @@
 ---
 created: 2024-11-07T22:01:17.823Z
-updated: 2024-11-08T04:38:57.192Z
+updated: 2024-11-08T05:32:44.750Z
 assigned: 'Sérgio Pereira'
 progress: 0
 tags:
   - ref00004
+started: 2024-11-08T05:32:44.750Z
 ---
 
 # 04 - Setup de Ferramentas
