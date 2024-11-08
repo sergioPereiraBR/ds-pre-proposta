@@ -1,6 +1,6 @@
 ---
 created: 2024-11-07T22:11:53.805Z
-updated: 2024-11-07T23:11:52.388Z
+updated: 2024-11-08T05:25:50.603Z
 assigned: 'Sérgio Pereira'
 progress: 0
 tags:
@@ -10,6 +10,11 @@ tags:
 # 13 - Deploy de Produção
 
 Deploy de produção - Hospedar o Backend da Pré-proposta
+
+## Sub-tasks
+
+- [ ] Hospedar o Backend da Pré-proposta
+- [ ] Deploy de produção
 
 ## Comments
 

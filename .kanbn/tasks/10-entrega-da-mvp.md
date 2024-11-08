@@ -1,6 +1,6 @@
 ---
 created: 2024-11-07T22:09:29.774Z
-updated: 2024-11-07T23:02:50.022Z
+updated: 2024-11-08T05:08:06.250Z
 assigned: 'Sérgio Pereira'
 progress: 0
 tags:
@@ -10,6 +10,10 @@ tags:
 # 10 - Entrega da MVP
 
 Entrega da MVP, encerrando a Release da MVP
+
+## Sub-tasks
+
+- [ ] Entregar a MVP e encerrar a Release da MVP
 
 ## Comments
 

@@ -1,6 +1,6 @@
 ---
 created: 2024-11-07T22:11:19.426Z
-updated: 2024-11-07T23:08:12.009Z
+updated: 2024-11-08T05:24:49.872Z
 assigned: 'Sérgio Pereira'
 progress: 0
 tags:
@@ -9,7 +9,11 @@ tags:
 
 # 12 - Frontend
 
-Feature para dev. do frontend com download da proposta gerada em pdf
+Implementação do frontend com download da proposta gerada em pdf
+
+## Sub-tasks
+
+- [ ] Implementa o frontend com download da proposta gerada em pdf
 
 ## Comments
 

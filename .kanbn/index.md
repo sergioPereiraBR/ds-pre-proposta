@@ -33,6 +33,6 @@ columnSorting:
 
 ## Done
 
-- [01-setup-do-projeto](tasks/01-setup-do-projeto.md)
 - [03-adicionar-tarefas-no-backlog](tasks/03-adicionar-tarefas-no-backlog.md)
 - [02-setup-do-aplicativo](tasks/02-setup-do-aplicativo.md)
+- [01-setup-do-projeto](tasks/01-setup-do-projeto.md)

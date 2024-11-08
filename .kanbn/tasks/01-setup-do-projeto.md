@@ -1,13 +1,13 @@
 ---
 created: 2024-11-07T19:21:10.175Z
-updated: 2024-11-07T23:22:44.283Z
+updated: 2024-11-08T04:39:53.705Z
 assigned: 'Sérgio Pereira'
 progress: 1
 tags:
   - ref00001
-due: 2024-11-04T00:00:00.000Z
-started: 2024-11-04T00:00:00.000Z
-completed: 2024-11-04T00:00:00.000Z
+due: 2024-11-03T00:00:00.000Z
+started: 2024-11-03T00:00:00.000Z
+completed: 2024-11-03T00:00:00.000Z
 ---
 
 # 01 - Setup do Projeto
@@ -16,7 +16,7 @@ Preparação inicial do ambiente de trabalho para desenvolvimento
 
 ## Sub-tasks
 
-- [x] definir pasta do projeto
+- [x] Definir pasta do projeto
 - [x] Iniciar o repositório local
 - [x] Configurar o projeto no VS Code
 - [x] Configurar e ativar o ambiente virtual (venv)
