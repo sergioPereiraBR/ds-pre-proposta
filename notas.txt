@@ -2,8 +2,8 @@ https://medium.com/gbtech/aprimorando-qualidade-de-c%C3%B3digo-python-com-black-
 
 venv:
 	 Cria    : python -m venv venv
-	 Ativa   : venv/Scripts/activate
-	 Desativa: venv/Scripts/deactivate
+	 Ativa   : venv\Scripts\activate
+	 Desativa: venv\Scripts\deactivate
      
 pip:
     pip freeze > requirements.txt
