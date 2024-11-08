@@ -1,13 +1,13 @@
 ---
 created: 2024-11-07T20:20:57.514Z
-updated: 2024-11-07T23:22:53.515Z
+updated: 2024-11-07T23:56:20.628Z
 assigned: 'Sérgio Pereira'
 progress: 1
 tags:
   - ref00003
-due: 2024-11-01T00:00:00.000Z
-started: 2024-11-01T00:00:00.000Z
-completed: 2024-11-01T00:00:00.000Z
+due: 2024-10-31T00:00:00.000Z
+started: 2024-10-31T00:00:00.000Z
+completed: 2024-10-31T00:00:00.000Z
 ---
 
 # 03 - Adicionar Tarefas no Backlog
@@ -19,18 +19,18 @@ Inclusão no backlog do kanbn as tarefas do projeto
 - [x] 01 - Setup do projeto
 - [x] 02 - Setup do aplicativo
 - [x] 03 - Setup do backlog
-- [ ] 04 - Setup de Ferramentas - Usadas para doc, log, monitoramento, proteção e teste
-- [ ] 05 - Feature Cadastro
-- [ ] 06 - Feature Cálculos
-- [ ] 07 - Feature Relatório
-- [ ] 08 - Feature Base Local
-- [ ] 09 - Feature Base Remota
-- [ ] 10 - Entrega da MVP - Pacote da Release MVP
-- [ ] 11 - Backend - Servidor WEB - API Remota com controle de acesso.
-- [ ] 12 - Frontend - Site -  com download da proposta gerada em pdf
-- [ ] 13 - Deploy de Produção - Hospedar o Backend da Pré-proposta
-- [ ] 14 - Entregar da Release - Pacote da 1ª Versão
-- [ ] 15 - Comemoração de Lançamento
+- [x] 04 - Setup de Ferramentas - Usadas para doc, log, monitoramento, proteção e teste
+- [x] 05 - Feature Cadastro
+- [x] 06 - Feature Cálculos
+- [x] 07 - Feature Relatório
+- [x] 08 - Feature Base Local
+- [x] 09 - Feature Base Remota
+- [x] 10 - Entrega da MVP - Pacote da Release MVP
+- [x] 11 - Backend - Servidor WEB - API Remota com controle de acesso.
+- [x] 12 - Frontend - Site -  com download da proposta gerada em pdf
+- [x] 13 - Deploy de Produção - Hospedar o Backend da Pré-proposta
+- [x] 14 - Entregar da Release - Pacote da 1ª Versão
+- [x] 15 - Comemoração de Lançamento
 
 ## Comments
 
