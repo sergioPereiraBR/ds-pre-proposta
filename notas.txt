@@ -1,0 +1,132 @@
+https://medium.com/gbtech/aprimorando-qualidade-de-c%C3%B3digo-python-com-black-flake8-isort-e-interrogate-d5c089121357
+
+venv:
+	 Cria    : python -m venv venv
+	 Ativa   : venv\Scripts\activate
+	 Desativa: venv\Scripts\deactivate
+     
+pip:
+    pip freeze > requirements.txt
+	pip install -r requirements.txt
+
+git:
+    https://gist.github.com/leocomelli/2545add34e4fec21ec16
+    https://www.atlassian.com/br/git/tutorials/setting-up-a-repository
+    git -config --global user.email "seuemailaqui@example.com"
+    git config --global user.name "seu nome aqui"
+    git config --global alias.tree 'log --oneline --graph --decorate --all'
+    git config --list
+    git tree
+
+    git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+    git pull origin main
+    git status
+    git add .
+    git add -f arquivo_no_gitignore.txt
+    git push origin main
+
+    git checkout main
+    git branch recover-B B
+    git push upstream B:recover-B
+    git fetch upstream recover-B
+    git merge upstream/main
+    git diff
+
+    git tag
+    git tag -n
+    git tag -a v0.0.0 -m "começando o desenvolvimento do projeto"
+    git tag v0.0.0 v0.1.0
+    git tag -f v0.1.0 8ee7c0f
+    git tag -d v0.0.0
+    git show v0.0.0
+    git push origin v0.0.0
+    git push origin --tags
+    git push origin <nome da nova tag> :<nome da tag antiga> 
+    
+    git stash
+    git stash list
+    git stash applay
+    git stash show
+
+    git remote -v
+    git remote add apelido url
+    git remote add origin url-do-repositorio-no-github
+    git remote add upstream https://github.com/ORIGINAL-OWNER/ORIGINAL-REPOSITORY.git
+    git remote remove origin
+    git remote set-url origin https://github.com/seu-usuario/seu-repositorio.git
+    git remote rename origin novo-origin
+    git remote add origin git@github.com:SEU_USUARIO/SEU_REPOSITORIO
+    gh repo sync owner/cli-fork -b BRANCH-NAME
+    git push -u origin main
+    git fetch
+    git fetch REMOTE
+    git fetch upstream
+    https://www.alura.com.br/artigos/nova-exigencia-do-git-de-autenticacao-por-token-o-que-e-o-que-devo-fazer
+    git remote add origin git@github.com:sergioPereiraBR/ds-pre-proposta.git
+    git remote add origin https://github.com/sergioPereiraBR/ds-pre-proposta.git
+    git branch -M main
+    git push -u origin main
+
+    git commit
+    git commit -m "MENSAGEM"
+    git commit -m "MENSAGEM" -m "MENSAGEM"
+    git commit -m "Refactor usability tests.
+    >
+    >
+    Co-authored-by: NAME <NAME@EXAMPLE.COM>
+    Co-authored-by: ANOTHER-NAME <ANOTHER-NAME@EXAMPLE.COM>"
+    https://github.com/REPO-OWNER/REPO-NAME/graphs/contributors
+    $ git commit -m "Refactor usability tests.
+    >
+    >
+    
+    git log [Aperte a tecla 'Q' para sair]
+    git log -p
+    git log --oneline
+    git diff
+    git revert <hash>
+    git reset 
+    on-behalf-of: @ORG NAME@ORGANIZATION.COM"
+    git commit --amend -m "CORRIGE MENSAGEM DO ÚLTIMO COMMIT"
+    git push --force-with-lease origin EXAMPLE-BRANCH
+    git rebase -i HEAD~3
+    git push --force origin EXAMPLE-BRANCH
+    https://github.com/github-linguist/linguist/compare/f75c570..3391dcc
+    git reset --hard <hash>
+
+ssh:
+    to git: ssh-keygen -t ed25519 -C "SEU EMAIL AQUI"
+
+
+kanbn:
+    kanbn: init --help
+    kanbn: init
+    kanbn add -n "My new task"
+    kanbn board
+    kanbn edit "my-new-task" -t "Large"
+    https://github.com/basementuniverse/kanbn/blob/13fb053c3d089ad74b43c78696f7a10b030a0310/docs/quick-start.md
+
+SemVer:
+    Feat: Utilizamos quando vamos criar uma nova feature no projeto. Ex.: estamos criando um novo endpoint em uma API ou estamos adicionando um novo service dentro do nosso projeto.
+    Refactor: Embora o nome sejá sugestivo, é bem importante reforçar a sua importancia. Utilizamos refactor quando estamos atualizando alguma parte do nosso código.
+    FIX: Indicam que seu trecho de código commitado está solucionando um problema (bug fix)
+    hot fix: Esse é um que nós temos receio de utilizar, mas que acabamos utilizando por conta da correria. Utilizamos o fix para subir alguma correção. Geralmente algum bug que precisamso corrigir e subir rápido em produção.
+    chore: Utilizamos o chore quando fazemos alguma alteração que não influencia o nosso sistema nem algum dos nossos testes. Para ficar mais claro, utilizamos o chore para alterações como: adicionar algo dentro do .gitignore, isso não afeta o nosso sistema correto? Ou mudança no eslint que seria apenas uma config.
+    Style: O Style é utilizado para mudanças de formatação ou estilo de código que não influenciam na lógica do sistema.
+    Build: Esse nós utilizamos quando fazemos alguma mudança no build do nosso projeto.
+    Test: Como o próprio nome diz, o teste seria quando nós fazemos alguma alteração em algum teste do nosso projeto.
+    Perf: Esse é pouco conhecido, o pessoal acaba utilizando o Fix no lugar dele, pois utilizamos o perf quando fazemos alguma alteração na performance do nosso projeto como: melhora na performance de uma função ou query.
+    Docs: Esse acaba entrando no pacote de alterações do Chore por não alterar nada ou Style, mas podemos utilizar o Docs quando nós fazemos alguma alteração em algum arquivo de documentação como no swagger, readme…etc.
+    ci: Commits do tipo ci indicam mudanças relacionadas a integração contínua (continuous integration).
+    raw: Commits do tipo raw indicam mudanças relacionadas a arquivos de configurações, dados, features, parâmetros.
+    cleanup: Commits do tipo cleanup são utilizados para remover código comentado, trechos desnecessários ou qualquer outra forma de limpeza do código-fonte, visando aprimorar sua legibilidade e manutenibilidade.
+    remove: Commits do tipo remove indicam a exclusão de arquivos, diretórios ou funcionalidades obsoletas ou não utilizadas, reduzindo o tamanho e a complexidade do projeto e mantendo-o mais organizado.
+    
+pkg:
+    pip install --upgrade build
+    py -m build
+    pip install --upgrade twine
+    py -m twine upload --repository testpypi dist/*
+    py -m pip install --index-url https://test.pypi.org/simple/ --no-deps example-package-YOUR-USERNAME-HERE
+    from example_package_YOUR_USERNAME_HERE import example
+    https://packaging.python.org/en/latest/

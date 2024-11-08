@@ -1,0 +1,1 @@
+include README.md ./doc/LICENSE CODE_OF_CONDUCT.md ./doc/CONTRIBUTING.md requirements.txt ./doc/docs/*.md
