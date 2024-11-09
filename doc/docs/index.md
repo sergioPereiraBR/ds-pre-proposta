@@ -11,7 +11,17 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+    doc/ 
+        mkdocs.yml     # The configuration file.
+        docs/
+            index.md   # The documentation homepage.
+            ...        # Other markdown pages, images and other files.
+        htmlcov/
+            index.html # Relatório e cobertura de testes.
+            ...        # Other htmlcov pages, images and other files.
+        
+        
+## Nota:
+
+    - O arquivo vazio 'conftest.py' permite a execução dos testes
+

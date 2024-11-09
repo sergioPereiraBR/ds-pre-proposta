@@ -9,6 +9,17 @@ pip:
     pip freeze > requirements.txt
 	pip install -r requirements.txt
 
+pytest:
+    py test
+    pytest tests
+    python -m pytest tests
+    coverage run -m pytest
+    pip install pytest-cov
+    pytest --cov-report term --cov=pre-proposta tests/
+    pytest --cov-report term --cov=src tests/
+    pytest --cov=src tests/ --cov-report term-missing 
+    pytest --cov 
+
 git:
     repo: https://github.com/sergioPereiraBR/ds-pre-proposta.git
     https://gist.github.com/leocomelli/2545add34e4fec21ec16
