@@ -27,6 +27,7 @@ git:
     git push origin main
 
     git checkout main
+    git switch main
     git branch recover-B B
     git push upstream B:recover-B
     git fetch upstream recover-B
