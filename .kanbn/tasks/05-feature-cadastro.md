@@ -1,10 +1,11 @@
 ---
 created: 2024-11-07T22:02:15.898Z
-updated: 2024-11-08T05:32:41.925Z
+updated: 2024-11-09T19:21:31.104Z
 assigned: 'Sérgio Pereira'
 progress: 0
 tags:
   - ref00005
+started: 2024-11-09T19:21:31.104Z
 ---
 
 # 05 - Feature Cadastro

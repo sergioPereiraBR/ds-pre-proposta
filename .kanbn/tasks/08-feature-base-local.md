@@ -1,6 +1,6 @@
 ---
 created: 2024-11-07T22:05:15.569Z
-updated: 2024-11-08T05:32:54.275Z
+updated: 2024-11-09T19:28:44.413Z
 assigned: 'Sérgio Pereira'
 progress: 0
 tags:
